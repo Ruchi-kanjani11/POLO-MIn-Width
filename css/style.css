@@ -17,7 +17,7 @@
 }
 
 html body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -50,6 +50,10 @@ ul li {
     justify-content: center;
 }
 
+.justify-content-end {
+    justify-content: end;
+}
+
 .align-items-center {
     align-items: center;
 }
@@ -78,3 +82,84 @@ img {
     width: 25%;
     padding: 15px;
 }
+
+/* header section start */
+.heading {
+    border-bottom: 1px solid rgb(158, 148, 148);
+}
+
+.heading .content ul li {
+    margin-right: 16px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.heading .icons ul li {
+    margin: 0 10px;
+}
+
+/* header section end */
+
+/* navbar section start */
+.navbar .logo {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.navbar .nav .content ul li a {
+    padding: 10px 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.navbar .nav .content ul li a i {
+    color: #484848;
+}
+
+.navbar .nav .content ul li sup {
+    color: #484848;
+    font-weight: 300;
+}
+
+/* navbar section end */
+
+/* hero section start */
+.hero .content {
+    font-family: "Raleway", sans-serif;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.hero .img img {
+    width: 714px;
+    height: 800px;
+}
+
+.hero .content h3 {
+    font-size: 24px;
+    color: #333333;
+}
+
+.hero .content h2 {
+    font-size: 120px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.hero .content p {
+    color: #333333;
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+
+.hero .content a {
+    border: 1px solid #000;
+    padding: 12px 18px;
+    margin-top: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+/* hero section end */
